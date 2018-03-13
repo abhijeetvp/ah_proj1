@@ -11,9 +11,11 @@
     <ProjectData>
       <GUID val="{8EBBB101-2CB2-4CD5-9CA3-C633C6D06E99}"/>
       <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="%WorkingDir%Support\Color_Runtime.eng"/>
+      <ApplFontDefinitionFile val="%WorkingDir%Support\Font_Runtime.eng"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
-      <_SystemPulldownMenu comp="-1" obj="1"/>
+      <_SystemPulldownMenu comp="-1" obj="2"/>
       <_SystemContextMenu comp="-1"/>
       <ExposeComment val="N"/>
       <ProjectName val="ah_proj1"/>

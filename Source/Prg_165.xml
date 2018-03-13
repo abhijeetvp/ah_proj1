@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="prog1" ISN_2="1" LastIsn="1" id="3">
+        <Header Description=".............." ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="165">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,21 +27,11 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736766" _time="38624" date="13/03/2018" time="10:43:44"/>
+          <ToBeMigrated val="Y"/>
+          <LastModified date="00/00/0000" time="00:00:00"/>
         </Header>
-        <ItemIsn val="1"/>
         <Resource>
-          <Columns>
-            <Column id="1" name="var1">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10"/>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
-                <_Flip id="194"/>
-              </PropertyList>
-            </Column>
-          </Columns>
+          <Columns/>
         </Resource>
         <Information>
           <Key>
@@ -101,7 +91,7 @@
           </BOX>
         </Information>
         <TaskLogic>
-          <LogicUnit id="1" propagate="78">
+          <LogicUnit id="2" propagate="78">
             <Level val="R"/>
             <Type val="M"/>
             <Scope val="S"/>
@@ -114,59 +104,23 @@
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                <DATAVIEW_SRC FlowIsn="2" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
-              <LogicLine>
-                <Select FieldID="1" FlowIsn="3" id="1">
-                  <Column val="1"/>
-                  <Type val="V"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="2"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="2" _last_test_id="2" id="1">
+          <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
-              <Model id="1"/>
+              <BorderStyle id="64" val="1"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="prog1"/>
+              <FormName id="311" valUnicode=".............."/>
+              <PersistentFormState id="493"/>
             </PropertyList>
-            <Control _test_id="2" id="2">
-              <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="var1:"/>
-                <X id="21" val="4"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="21"/>
-                <Height id="24" val="9"/>
-                <Style id="63" val="7"/>
-                <EnableRTF id="69"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="1" id="1">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="1"/>
-                </Model>
-                <X id="21" val="29"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="59"/>
-                <Height id="24" val="10"/>
-                <Data FieldID="1" id="43"/>
-                <ControlName id="46" val="var1"/>
-                <TabOrder id="314" val="1"/>
-              </PropertyList>
-            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
